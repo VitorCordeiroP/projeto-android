@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&display=swap');
+@font-face {
+    font-family:'idroid' ;
+    src: url('idroid.otf') format('opentype'); 
+}
+
+:root {
+    --cor1: #44BF76;
+    --cor2: #2D7F4F;
+    --cor3: #07a890;
+    --cor4: #174028;
+    --cor5: #52E58E;
+
+    --fonte-titulo: 'Bebas Neue', cursive;
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-android: 'idroid', Arial, sans-serif;
+    --fonte-menu: 'Righteous';
+}
+
+body {
+    background-image: linear-gradient(65.15deg, var(--cor2), var(--cor1));
+    height: 1200px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-image: linear-gradient(to top, var(--cor4), var(--cor2));
+    height: 200px;
+    box-shadow: 1px 1px 4px black;
+}
+
+.titulo-cabecalho {
+    text-align: center;
+    color: white;
+    padding: 30px 30px 15px;
+    font-family: var(--fonte-titulo);
+    font-size: 50px;
+    text-shadow: 1px 1px 1px var(--cor1);
+}
+
+.descricao-cabecalho {
+    text-align: center;
+    color: white;
+    font-family: var(--fonte-padrao);
+}
+
+.menu-cabecalho {
+    display: flex;
+    gap: 30px;
+    font-family: var(--fonte-menu);
+    justify-content: flex-start;
+    padding: 30px;
+}
+
+.botao-cabecalho {
+    color: white;
+    font-size: 20px;
+}
+
+.divisao-principal {
+    background-color: white;
+    width: 800px;
+    height: 300px;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 4px var(--cor4);
+}
+
+.titulo-principal {
+    font-family: var(--fonte-android);
+    background-image: linear-gradient(to right, var(--cor1), var(--cor5));
+    border-radius: 5px;
+    padding-left: 30px;
+    height: 30px;
+    color: var(--cor4);
+}
+
+.paragrafo-do-titulo {
+    font-family: var(--fonte-padrao);
+    padding: 30px 15px;
+}
+
+.paragrafo-do-titulo-dois {
+    font-family: var(--fonte-padrao);
+    padding: 15px 15px;
+}
+
+.primeira-secao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-bugdroid {
+    height: 400px;
+}
+
+.fundo-irina-blok {
+    background-color: white;
+    margin-left: 30px;
+    height: 300px;
+    width: 310px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 4px var(--cor4)
+}
+
+.irina-blok {
+    margin: 30px;
+    height: 250px;
+}
+
+.segunda-secao {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.fundo-paragrafo-irina {
+    background-color: white;
+    height: 300px;
+    width: 60em;
+    border-radius: 15px;
+}
